@@ -1,0 +1,5 @@
+# The scraped contact dataset is private and never committed.
+data/
+*.xlsx
+*.csv
+.env
