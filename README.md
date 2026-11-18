@@ -2,6 +2,10 @@
 
 A training project that builds a deduplicated dataset of gym business listings across 8 Kerala cities from public Google Maps data, using Python and the SerpAPI Maps endpoint.
 
+![Pipeline workflow](docs/pipeline-workflow.png)
+
+**New here? Read the [step-by-step walkthrough](docs/walkthrough.md)** - every stage explained with the actual code and why it is built that way, including the email-extraction decision flow and expected output.
+
 ## What it does
 
 - **Business question:** map the gym market across Kochi, Kozhikode, Thrissur, Malappuram, Trivandrum, Kannur, Kollam and Ernakulam, capturing name, phone, email, location and website for each operator.
@@ -17,6 +21,8 @@ The scraped contact dataset (phone numbers, emails, addresses of real businesses
 | File | Purpose |
 | --- | --- |
 | `gym_pipeline.py` | Full pipeline: collect listings, deduplicate, find emails, export Excel |
+| `docs/walkthrough.md` | Step-by-step explanation of the pipeline: what the code does, why, expected output |
+| `docs/pipeline-workflow.png`, `docs/email-extraction-workflow.png` | Explanatory diagrams (pipeline stages; per-gym email decision flow) |
 | `requirements.txt` | Python dependencies |
 | `.gitignore` | Keeps the scraped dataset and exports out of commits by default |
 
