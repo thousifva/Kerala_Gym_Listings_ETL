@@ -50,6 +50,6 @@ The email pass visits each gym's website one by one, so allow time for a full ru
 
 ## Notes and provenance
 
-- Reconstructed from the training conversation in which this project was built. The only change made for publication: the API key, which was typed into the code during the session, now comes from the `SERPAPI_KEY` environment variable, and the script prints its progress instead of using notebook-only helpers.
+- Reconstructed from the training conversation in which this project was built. The only change made for publication: the API key, which was typed into the code during the session, now comes from the `SERPAPI_KEY` environment variable, and the script prints its progress instead of using notebook-only helpers. The published code has been syntax-checked but not run end-to-end since reconstruction.
 - Google Maps listings do not include email addresses; the email pass finds one only when a gym's own website publishes it, so many rows will have no email. That is expected.
 - SerpAPI's terms and the target websites' terms apply to any use of this code.
